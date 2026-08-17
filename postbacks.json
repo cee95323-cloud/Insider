@@ -1,0 +1,1453 @@
+{
+    "bot_status": "off",
+    "offline_message": ".",
+    "custom_tasks": [
+        {
+            "id": "t_foundit",
+            "name": "Foundit",
+            "trigger": "pscn=2028",
+            "parameter": "cl",
+            "example_url": "https:\/\/foundit.sng.link\/...",
+            "steps": [
+                {
+                    "url": "http:\/\/tracking.gridadss.com\/conv?yeahmobi_ocpa&event=registration&transaction_id={click_id}",
+                    "delay": 5
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_instaclean",
+            "name": "InstaClean",
+            "trigger": "vumonic",
+            "parameter": "ref_id",
+            "example_url": "https:\/\/vumonic.g2afse.com\/...",
+            "steps": [
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?security_token=a9194e7b90e79aa8c18b&click_id={click_id}&goal_value=Registration",
+                    "delay": 3
+                },
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?security_token=a9194e7b90e79aa8c18b&click_id={click_id}&goal_value=unique_user_login",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69d8c9dc0a248",
+            "name": "TaskBucks",
+            "trigger": "taskbucks.sng.link",
+            "parameter": "cl",
+            "example_url": "https:\/\/taskbucks.sng.link...",
+            "steps": [
+                {
+                    "url": "https:\/\/www.vmtrk.com\/conversion?click_id={click_id}",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/www.vmtrk.com\/event?click_id={click_id}&event_name=New101",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69d8e846c0129",
+            "name": "Angel One",
+            "trigger": "app.appsflyer.com",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com...",
+            "postback_url": "https:\/\/track.digiit.work\/postback?clickid={click_id}&event_name=PartyCodeGenerated_S2S",
+            "delay": 2,
+            "status": "off"
+        },
+        {
+            "id": "t_69dd98fc2f031",
+            "name": "Foundit \u20b99",
+            "trigger": "pcid=14958187",
+            "parameter": "cl",
+            "example_url": "https:\/\/foundit.sng.link...",
+            "steps": [
+                {
+                    "url": "https:\/\/wmadv.go2cloud.org\/aff_goal?a=lsr&goal_id=55296&transaction_id={click_id}",
+                    "delay": 5
+                },
+                {
+                    "url": "https:\/\/wmadv.go2cloud.org\/aff_goal?a=lsr&goal_id=55297&transaction_id={click_id}",
+                    "delay": 1
+                },
+                {
+                    "url": "https:\/\/wmadv.go2cloud.org\/aff_goal?a=lsr&goal_id=55298&transaction_id={click_id}",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69e092dc196c8",
+            "name": "Lemon",
+            "trigger": "s1.whistleloop.com",
+            "parameter": "loop_id",
+            "example_url": "https:\/\/s1.whistleloop.com\/",
+            "steps": [
+                {
+                    "url": "https:\/\/taal.trackier.co\/acquisition?click_id={click_id}&security_token=8d58914f7d80ac05ce27",
+                    "delay": 2
+                },
+                {
+                    "url": "https:\/\/taal.trackier.co\/acquisition?click_id={click_id}&security_token=8d58914f7d80ac05ce27&goal_value=56t12h",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/taal.trackier.co\/acquisition?click_id={click_id}&security_token=8d58914f7d80ac05ce27&goal_value=h0ujuw",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69e20be815fd3",
+            "name": "Story TV",
+            "trigger": "story.tv.drama.reels",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/strongmertics.trackier.co\/acquisition?click_id={click_id}&security_token=787b782606e6cb5532ef&goal_value=install",
+                    "delay": 1
+                },
+                {
+                    "url": "https:\/\/strongmertics.trackier.co\/acquisition?click_id={click_id}&security_token=787b782606e6cb5532ef&goal_value=trial_payment_successful",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69e5e380ce476",
+            "name": "GT",
+            "trigger": "gta6.hapro.site",
+            "parameter": "tid",
+            "example_url": "https:\/\/a.ms-app.top\/link",
+            "steps": [
+                {
+                    "url": "https:\/\/rewardshub205965.o18a.com\/p?tid={click_id}&event=Registration",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69e8e35fea553",
+            "name": "Testing Offer",
+            "trigger": "getrupee.hzymfx.top",
+            "parameter": "click_id",
+            "example_url": "Testing.com",
+            "steps": [
+                {
+                    "url": "http:\/\/uprisemedia.o18a.com\/p?tid={click_id}",
+                    "delay": 3
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69e9d25cb7342",
+            "name": "Unstop x Indian Premier",
+            "trigger": "unstop.com",
+            "parameter": "click_id",
+            "example_url": "https:\/\/unstop.com\/quiz",
+            "steps": [
+                {
+                    "url": "https:\/\/unstop.gotrackier.io\/pixel?av=685bf90ea7dc8107e3090882&sub1=30654694&utms=Jobs&utmd=Affiliates&utmc=trackier_2385&j=W3sidXRtcyI6IkpvYnMiLCJ0cyI6IjIwMjYtMDMtMjJUMDM6MTc6NTIuMTQ1WiIsInV0bWMiOiJ0cmFja2llcl8yMzg1IiwidXRtZCI6IkFmZmlsaWF0ZXMiLCJlbmMiOiJ5ZXMifV0&__v=6.6&s=websdk&click_id={click_id}&goal_value=registration",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69eae62b811c8",
+            "name": "Super Money",
+            "trigger": "super-money.app.link",
+            "parameter": "click_id",
+            "example_url": "https:\/\/super-money.app.link",
+            "steps": [
+                {
+                    "url": "https:\/\/offers-saltoro.affise.com\/postback?clickid={click_id}&goal=FIRST_TRANSACTION_STATUS_SUCCESS",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69eb181e282b1",
+            "name": "Angel One ( 4.7 )",
+            "trigger": "com.msf.angelmobile",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/syncapi.trckswrm.com\/postback?click_id={click_id}",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69eb391765fda",
+            "name": "FreeFire",
+            "trigger": "click.trksale.com",
+            "parameter": "sub1",
+            "example_url": "https:\/\/click.trksale.com\/click",
+            "steps": [
+                {
+                    "url": "http:\/\/uprisemedia.o18a.com\/p?tid={click_id}&event=Registration",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69eb4107831ff",
+            "name": "Monster ( 18.81 )",
+            "trigger": "psid=VA-198",
+            "parameter": "cl",
+            "example_url": "https:\/\/foundit.sng.link",
+            "steps": [
+                {
+                    "url": "https:\/\/performance.attrimob.in\/perf\/callback?click_id={click_id}&event=1",
+                    "delay": 4
+                },
+                {
+                    "url": "https:\/\/performance.attrimob.in\/perf\/callback?click_id={click_id}&event=2",
+                    "delay": 2
+                },
+                {
+                    "url": "https:\/\/performance.attrimob.in\/perf\/callback?click_id={click_id}&event=3",
+                    "delay": 2
+                },
+                {
+                    "url": "https:\/\/performance.attrimob.in\/perf\/callback?click_id={click_id}&event=4",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69eb66a455b7d",
+            "name": "Tira ( 4.24 )",
+            "trigger": "pid=xapads_int",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/post.xapads.com\/acquisition?click_id={click_id}&security_token=36399a458c8980278778&gaid=e610e3fb-e5e6-463b-a947-fc61f4d8863f&idfa=",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69eb6cc8d48d2",
+            "name": "Jigri Camp",
+            "trigger": "jigri.sng.link",
+            "parameter": "cl",
+            "example_url": "https:\/\/jigri.sng.link",
+            "steps": [
+                {
+                    "url": "https:\/\/trk.opiclepb.com\/acquisition?click_id={click_id}&security_token=b74b2e19d0cb2b217f06",
+                    "delay": 1
+                },
+                {
+                    "url": "https:\/\/trk.opiclepb.com\/acquisition?click_id={click_id}&security_token=b74b2e19d0cb2b217f06&goal_value=f_backend_first_purchase_success",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69eb806a1bbb0",
+            "name": "Grow",
+            "trigger": "click.trackier.io",
+            "parameter": "click_id",
+            "example_url": "https:\/\/example.io",
+            "steps": [
+                {
+                    "url": "http:\/\/track.trackier.co\/acquisition?click_id={click_id}&security_token=a8d9a9a8d5351f379b9c&goal_value=registrationAccountPageTapped",
+                    "delay": 5
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69ed6a53eafd3",
+            "name": "Novio",
+            "trigger": "com.novio.customer",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/offers-mobavenue.affise.com\/postback?click_id={click_id}&goal=install",
+                    "delay": 1
+                },
+                {
+                    "url": "https:\/\/offers-mobavenue.affise.com\/postback?click_id={click_id}&goal=am_registration",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/offers-mobavenue.affise.com\/postback?click_id={click_id}&goal=am_registration_completed",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69edec95dee4a",
+            "name": "Story Max ( CatCash App )",
+            "trigger": "com.storymax.reels.shorts",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/xy-ads91.trackier.co\/acquisition?click_id={click_id}&security_token=374f4e71bc59bfa120&goal_value=trial_payment_successful",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69ef4aa62a9c8",
+            "name": "Liquide",
+            "trigger": "liquide.sng.link",
+            "parameter": "cl",
+            "example_url": "https:\/\/liquide.sng.link",
+            "steps": [
+                {
+                    "url": "http:\/\/paychat.fuse-cloud.com\/pb?tid={click_id}&e_tkn=Registered",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69ef559bbae72",
+            "name": "Wheel",
+            "trigger": "a.ms-app.top\/link.html",
+            "parameter": "tid",
+            "example_url": "https:\/\/a.ms-app.top",
+            "steps": [
+                {
+                    "url": "https:\/\/rewardshub205965.o18a.com\/p?tid={click_id}&event=Registration",
+                    "delay": 3
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f004e69af24",
+            "name": "Waves",
+            "trigger": "com.prasarbharati.android",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/admin1.globalemedia.net\/postback?clickid={click_id}&goal=Af_complete_registration",
+                    "delay": 3
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f04af34e4cd",
+            "name": "InCred Money",
+            "trigger": "incredmoney.app.link",
+            "parameter": "click_id",
+            "example_url": "https:\/\/incredmoney.app.link",
+            "steps": [
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=Gold_Silver_Successful_Purchase",
+                    "delay": 4
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f05ff9ddcc5",
+            "name": "Angel One",
+            "trigger": "track.adsphire.in",
+            "parameter": "sub1",
+            "example_url": "https:\/\/track.adsphire.in",
+            "steps": [
+                {
+                    "url": "http:\/\/pb.cpi.leapmobs.com\/pb\/lsr?transaction_id={click_id}&event=install",
+                    "delay": 4
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f096bc1393e",
+            "name": "4Side Play",
+            "trigger": "4sides.sng.link",
+            "parameter": "cl",
+            "example_url": "https:\/\/4sides.sng.link",
+            "steps": [
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=Subscribe",
+                    "delay": 3
+                },
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=Subscription_Purchased",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f098284f36c",
+            "name": "Bhim UPI",
+            "trigger": "in.org.npci.upiapp",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=First_Transaction",
+                    "delay": 4
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f30b6524ad9",
+            "name": "Paytm Money",
+            "trigger": "com.paytmmoney",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/syncapi.trckswrm.com\/postback?click_id={click_id}",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f3109807316",
+            "name": "Traya: Hair Loss",
+            "trigger": "performance.attrimob.in",
+            "parameter": "click_id",
+            "example_url": "https:\/\/performance.attrimob.in",
+            "steps": [
+                {
+                    "url": "http:\/\/smartconnect.fusetracking.com\/pb?tid={click_id}",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f54d7723788",
+            "name": "Flot ( 669 Coins )",
+            "trigger": "cpitrack.allmyfit.com",
+            "parameter": "clickid",
+            "example_url": "http:\/\/cpitrack.allmyfit.com",
+            "steps": [
+                {
+                    "url": "https:\/\/tkconversion.bxgwebs.com\/conversion?click_id={click_id}&unique_key=5cb54a9d5fae5150",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f598f83e4f3",
+            "name": "Work India",
+            "trigger": "admin.appnext.com",
+            "parameter": "q",
+            "example_url": "https:\/\/admin.appnext.com",
+            "steps": [
+                {
+                    "url": "http:\/\/tracking.gridadss.com\/conv?yeahmobi_ocpa&event=gugrv3&transaction_id={click_id}",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f59c97601cc",
+            "name": "Max ( 246 Coins )",
+            "trigger": "maxfashionin.app.link",
+            "parameter": "click_id",
+            "example_url": "https:\/\/maxfashionin.app.link",
+            "steps": [
+                {
+                    "url": "http:\/\/postback.milengine.com\/?clickid={click_id}",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f614d2b16c7",
+            "name": "Lending Plate",
+            "trigger": "com.lendingplate",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "http:\/\/offers.mobavenue.affise.com\/postback?clickid={click_id}&goal=install",
+                    "delay": 1
+                },
+                {
+                    "url": "http:\/\/offers.mobavenue.affise.com\/postback?clickid={click_id}&goal=nach_lms",
+                    "delay": 4
+                },
+                {
+                    "url": "http:\/\/offers.mobavenue.affise.com\/postback?clickid={click_id}&goal=selfie_lms",
+                    "delay": 0
+                },
+                {
+                    "url": "http:\/\/offers-mobavenue.affise.com\/postback?clickid={click_id}&goal=selfie_lms_1",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f6da8969874",
+            "name": "Angel One",
+            "trigger": "com.msf.angelmobile",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "http:\/\/postback.milengine.com\/?clickid={click_id}",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f880e72b2d9",
+            "name": "Tej Credit",
+            "trigger": "com.tezcredit.app",
+            "parameter": "transaction_id",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/link.indcps.vip\/aff_lsr?transaction_id={click_id}",
+                    "delay": 1
+                },
+                {
+                    "url": "https:\/\/link.indcps.vip\/aff_goal?a=lsr&goal_id=56784&transaction_id={click_id}",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f962a00698b",
+            "name": "Chamet",
+            "trigger": "campaign_id=4598663",
+            "parameter": "clickid",
+            "example_url": "http:\/\/tracking.milengine.com",
+            "steps": [
+                {
+                    "url": "http:\/\/apicall.bigflymobi.com\/pb\/lsr?transaction_id={click_id}",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69f963784b5c8",
+            "name": "Zype",
+            "trigger": "campaign_id=6905301",
+            "parameter": "clickid",
+            "example_url": "https:\/\/track.paddlewaver.com",
+            "steps": [
+                {
+                    "url": "http:\/\/track.miadx.com\/aff_lsr?transaction_id={click_id}",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69fb186aab52b",
+            "name": "Prime",
+            "trigger": "network_id=8944",
+            "parameter": "click_id",
+            "example_url": "https:\/\/control.kochava.com",
+            "steps": [
+                {
+                    "url": "http:\/\/postback.milengine.com\/?clickid={click_id}",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69fc973eb6280",
+            "name": "Angel One",
+            "trigger": "pid=opulaads_int",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/firstwebservicepvtltd10228258.o18a.com\/p?tid={click_id}",
+                    "delay": 1
+                },
+                {
+                    "url": "https:\/\/firstwebservicepvtltd10228258.o18a.com\/p?tid={click_id}&event=Basic_Details_Proceed_Clicks",
+                    "delay": 5
+                },
+                {
+                    "url": "https:\/\/firstwebservicepvtltd10228258.o18a.com\/p?tid={click_id}&event=PartyCodeGenerated_S2S",
+                    "delay": 5
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69fcb647ef9b7",
+            "name": "Kuku TV",
+            "trigger": "af_prt=fillymedia",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=trial_s2s",
+                    "delay": 4
+                },
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=Purchase",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=trial_s2s",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=Purchase",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_69fe7be04fd72",
+            "name": "War",
+            "trigger": "lbw=7d",
+            "parameter": "click_id",
+            "example_url": "https:\/\/example.com",
+            "steps": [
+                {
+                    "url": "https:\/\/offers-leadgenetics.affise.com\/postback?clickid={click_id}&goal=2",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a007b55412f2",
+            "name": "Bajaj Market",
+            "trigger": "org.altruist.BajajExperia",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "http:\/\/offers.mobavenue.affise.com\/postback?clickid={click_id}&goal=register_completed",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a02c778a1fd8",
+            "name": "Quick TV",
+            "trigger": "pid=applabs_int",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyersdk.com",
+            "steps": [
+                {
+                    "url": "https:\/\/post.clickscot.com\/acquisition?click_id={click_id}&security_token=36399a458c8980278778&goal_value=initial",
+                    "delay": 2
+                },
+                {
+                    "url": "https:\/\/post.clickscot.com\/acquisition?click_id={click_id}&security_token=36399a458c8980278778&goal_value=reg",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/post.clickscot.com\/acquisition?click_id={click_id}&security_token=36399a458c8980278778&goal_value=register",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/post.clickscot.com\/acquisition?click_id={click_id}&security_token=36399a458c8980278778&goal_value=registration",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/post.clickscot.com\/acquisition?click_id={click_id}&security_token=36399a458c8980278778&goal_value=signup",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a031eb93fc97",
+            "name": "Money View",
+            "trigger": "moneyviewloa.onelink.me",
+            "parameter": "clickid",
+            "example_url": "https:\/\/moneyviewloa.onelink.me",
+            "steps": [
+                {
+                    "url": "https:\/\/strongmertics.trackier.co\/acquisition?click_id={click_id}&security_token=787b782606e6cb5532ef&goal_value=install",
+                    "delay": 5
+                },
+                {
+                    "url": "https:\/\/strongmertics.trackier.co\/acquisition?click_id={click_id}&security_token=787b782606e6cb5532ef&goal_value=Upi_first_payment",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a055e6b5fb3c",
+            "name": "Gyazo",
+            "trigger": "cpitrack.melodong.com",
+            "parameter": "clickid",
+            "example_url": "http:\/\/cpitrack.melodong.com",
+            "steps": [
+                {
+                    "url": "https:\/\/aititude.hopb1.com\/notify\/global\/?click_id={click_id}",
+                    "delay": 4
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a056e0d484c9",
+            "name": "Tide",
+            "trigger": "tracking.milengine.com",
+            "parameter": "clickid",
+            "example_url": "http:\/\/tracking.milengine.com",
+            "steps": [
+                {
+                    "url": "http:\/\/apicall.bigflymobi.com\/pb\/lsr?transaction_id={click_id}",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a06a9afe56ba",
+            "name": "UT",
+            "trigger": "com.msf.angelmobile",
+            "parameter": "clickid",
+            "example_url": "https:\/\/example.com",
+            "steps": [
+                {
+                    "url": "https:\/\/adcounty.vnative.co\/acquisition?click_id={click_id}&security_token=2b248ab1fc2e6d7688af&goal_value=PartyCodeGenerated_S2S",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a06b2b2267b7",
+            "name": "Stable Money",
+            "trigger": "in.stablemoney.app",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/offers-napptix.affise.com\/postback?clickid={click_id}&goal=Registration",
+                    "delay": 4
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a0d013257d8a",
+            "name": "InCred Gold",
+            "trigger": "incredmoney.app.link",
+            "parameter": "click_id",
+            "example_url": "https:\/\/incredmoney.app.link",
+            "steps": [
+                {
+                    "url": "https:\/\/offers-adsreverb.affise.com\/postback?clickid={click_id}&secure=1c07be256260be6b65b547780a0a367e&goal=install",
+                    "delay": 1
+                },
+                {
+                    "url": "https:\/\/offers-adsreverb.affise.com\/postback?clickid={click_id}&secure=1c07be256260be6b65b547780a0a367e&goal=1,2,7,Gold_Silver_First_Purchase",
+                    "delay": 3
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a0d98cd11ffd",
+            "name": "Tico Chat",
+            "trigger": "track.quarklio.com",
+            "parameter": "click",
+            "example_url": "http:\/\/track.quarklio.com\/click",
+            "steps": [
+                {
+                    "url": "http:\/\/apicall.bigflymobi.com\/pb\/lsr?transaction_id={click_id}",
+                    "delay": 2
+                },
+                {
+                    "url": "http:\/\/fpb.bigflymobi.com\/v1\/api\/event?adv_click_id={click_id}&event_name=ms1yak",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a1140cbe8674",
+            "name": "Salary Pay",
+            "trigger": "heyreviews.co.in",
+            "parameter": "click_id",
+            "example_url": "https:\/\/heyreviews.co.in",
+            "steps": [
+                {
+                    "url": "https:\/\/tissolutionz723.o18.click\/p?tid={click_id}",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a1250c476b5b",
+            "name": "Jar",
+            "trigger": "mtads.offerborn.in",
+            "parameter": "p1",
+            "example_url": "https:\/\/app.adjust.com",
+            "steps": [
+                {
+                    "url": "https:\/\/offers-juuuno.affise.com\/postback?clickid={click_id}&goal=f_backend_first_purchase_success",
+                    "delay": 3
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a13ec0d3cc45",
+            "name": "GTA 6",
+            "trigger": "control.kochava.com",
+            "parameter": "click_id",
+            "example_url": "https:\/\/control.kochava.com",
+            "steps": [
+                {
+                    "url": "https:\/\/rewardshub205965.o18a.com\/p?tid={click_id}",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a1410c24ca5c",
+            "name": "Bachat",
+            "trigger": "app.bachatt",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/offers-leadgenetics.affise.com\/postback?click_id={click_id}&goal=1",
+                    "delay": 4
+                },
+                {
+                    "url": "https:\/\/offers-leadgenetics.affise.com\/postback?click_id={click_id}&goal=2",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a15b2e4ddb40",
+            "name": "AliBaba",
+            "trigger": "af_siteid=760601",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/appboombox10440197.o18.click\/p?tid={click_id}",
+                    "delay": 1
+                },
+                {
+                    "url": "https:\/\/appboombox10440197.o18.click\/p?tid={click_id}&event=Register",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a167e2845b8d",
+            "name": "XM 360",
+            "trigger": "pid=syncapiglbe_int",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/syncapi.trckswrm.com\/postback?click_id={click_id}",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a16ae00edc49",
+            "name": "Mobixwork",
+            "trigger": "https:\/\/start.mobiworkx.com",
+            "parameter": "aff_sub",
+            "example_url": "https:\/\/start.mobiworkx.com",
+            "steps": [
+                {
+                    "url": "https:\/\/in.o18.click\/p?auth_token=a9da3d8d49&event=Register&tid={click_id}",
+                    "delay": 4
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a16eab4672a8",
+            "name": "YapClub",
+            "trigger": "_dl=com.yapclub",
+            "parameter": "cl",
+            "example_url": "https:\/\/jigri.sng.link",
+            "steps": [
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=f_backend_first_purchase_success",
+                    "delay": 5
+                },
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=FirstPurchase",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a1914d25b881",
+            "name": "Kuku TV",
+            "trigger": "pid=adsoracleckj_int",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=trial_s2s",
+                    "delay": 4
+                },
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=trial_JU_s2s",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?click_id={click_id}&security_token=45ef79e26897de46c79c&goal_value=trial123",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a193b075d07f",
+            "name": "Test",
+            "trigger": "adj_click_id",
+            "parameter": "adj_click_id",
+            "example_url": "https:\/\/coinswitch.go.link",
+            "steps": [
+                {
+                    "url": "https:\/\/wwwadxinternetcom.trackier.co\/acquisition?click_id={click_id}&security_token=229b66558e20d766cf55",
+                    "delay": 1
+                },
+                {
+                    "url": "https:\/\/wwwadxinternetcom.trackier.co\/acquisition?click_id={click_id}&security_token=229b66558e20d766cf55&goal_value=gugrv3",
+                    "delay": 3
+                },
+                {
+                    "url": "https:\/\/wwwadxinternetcom.trackier.co\/acquisition?click_id={click_id}&security_token=229b66558e20d766cf55&goal_value=4h2ian",
+                    "delay": 10
+                },
+                {
+                    "url": "https:\/\/wwwadxinternetcom.trackier.co\/acquisition?click_id={click_id}&security_token=229b66558e20d766cf55&goal_value=z16c1d",
+                    "delay": 10
+                },
+                {
+                    "url": "https:\/\/wwwadxinternetcom.trackier.co\/acquisition?click_id={click_id}&security_token=229b66558e20d766cf55&goal_value=ifkcy5",
+                    "delay": 5
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a1a75dd6dd51",
+            "name": "Laxme",
+            "trigger": "track.vcommission.com",
+            "parameter": "p1",
+            "example_url": "https:\/\/track.vcommission.com",
+            "steps": [
+                {
+                    "url": "https:\/\/adsme.o18.link\/p?tid={click_id}",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a219ced2cd01",
+            "name": "Viber",
+            "trigger": "s.zc2.site",
+            "parameter": "tid",
+            "example_url": "https:\/\/s.zc2.site\/su\/10000213",
+            "steps": [
+                {
+                    "url": "https:\/\/track.trackier.co\/acquisition?click_id={click_id}&security_token=ecefaccc441c623ef290",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a28ae1b87300",
+            "name": "XM 360",
+            "trigger": "track.adsphire.in",
+            "parameter": "sub1",
+            "example_url": "https:\/\/track.adsphire.in",
+            "steps": [
+                {
+                    "url": "http:\/\/pb.adpropel.net\/pb\/lsr?transaction_id={click_id}",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a2a0cdd5b64f",
+            "name": "RapidRupee",
+            "trigger": "rapidrupee.app",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "http:\/\/fpb.bigflymobi.com\/v1\/api\/event?adv_click_id={click_id}&event_name=install",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a2a2cff3494f",
+            "name": "Jigri",
+            "trigger": "plaunchpad.gotrackier.com",
+            "parameter": "p1",
+            "example_url": "https:\/\/plaunchpad.gotrackier",
+            "steps": [
+                {
+                    "url": "http:\/\/pb.cpi.leapmobs.com\/pb\/lsr?clickid={click_id}",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a2bf4fae2907",
+            "name": "Story TV",
+            "trigger": "api.adsdeep.com",
+            "parameter": "sub1",
+            "example_url": "https:\/\/api.adsdeep.com",
+            "steps": [
+                {
+                    "url": "https:\/\/admomy.offershub.link\/postback?clickid={click_id}&event=1",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a4258cc45bc9",
+            "name": "Tide",
+            "trigger": "https:\/\/click.trackier.io",
+            "parameter": "click_id",
+            "example_url": "https:\/\/click.trackier.io",
+            "steps": [
+                {
+                    "url": "https:\/\/taal.trackier.co\/acquisition?click_id={click_id}&security_token=9fed4083957488025a09&goal_value=registrationAccountPageTapped",
+                    "delay": 5
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a47bce98e075",
+            "name": "BP",
+            "trigger": "https:\/\/bharatpeupi.onelink.me",
+            "parameter": "clickid",
+            "example_url": "https:\/\/example.com",
+            "steps": [
+                {
+                    "url": "https:\/\/offers-leadgenetics.affise.com\/postback?click_id={click_id}&goal=2",
+                    "delay": 2
+                },
+                {
+                    "url": "https:\/\/offers-leadgenetics.affise.com\/postback?click_id={click_id}&goal=3",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a48debdb92a5",
+            "name": "2026 Rummy",
+            "trigger": "offer_id=5111",
+            "parameter": "aff_sub",
+            "example_url": "https:\/\/cycom.hotrk0.com",
+            "steps": [
+                {
+                    "url": "http:\/\/cpipb.alto-sum.com\/?clickid={click_id}",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a4a567d5bdd6",
+            "name": "MEXC",
+            "trigger": "pid=xiaomiglobal_int",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "http:\/\/postback.milengine.com\/?clickid={click_id}",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a4b6a751647a",
+            "name": "Airtel",
+            "trigger": "oid=120",
+            "parameter": "aff_sub",
+            "example_url": "https:\/\/partners.marcadeo.com",
+            "steps": [
+                {
+                    "url": "https:\/\/admomy.offershub.link\/postback?clickid={click_id}&event_id=0",
+                    "delay": 1
+                },
+                {
+                    "url": "https:\/\/admomy.offershub.link\/postback?clickid={click_id}&event_id=1",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/admomy.offershub.link\/postback?clickid={click_id}&event_id=2",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/admomy.offershub.link\/postback?clickid={click_id}&event_id=3",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a55be1f697ae",
+            "name": "Grow",
+            "trigger": "com.nextbillion.groww",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?security_token=a9194e7b90e79aa8c18b&click_id={click_id}&goal_value=Reg",
+                    "delay": 3
+                },
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?security_token=a9194e7b90e79aa8c18b&click_id={click_id}&goal_value=EsignUserSuccess",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/post.rvrlinks.com\/acquisition?security_token=a9194e7b90e79aa8c18b&click_id={click_id}&goal_value=Stocks_first_transaction",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a58ceaecad82",
+            "name": "Lemon",
+            "trigger": "adgroup=1166",
+            "parameter": "click_id",
+            "example_url": "https:\/\/app.adjust.com",
+            "steps": [
+                {
+                    "url": "https:\/\/zettamobi.xyz\/pb.aspx?adv_id=mm&uid=871&t_id={click_id}",
+                    "delay": 4
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a6b4e4911483",
+            "name": "Story TV",
+            "trigger": "c=callofaction",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/catyadsmedia249.o18.link\/p?tid={click_id}&event=install",
+                    "delay": 2
+                },
+                {
+                    "url": "https:\/\/catyadsmedia249.o18.link\/p?tid={click_id}&event=trial_payment_successful",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a6d81cb27d9e",
+            "name": "Yoky",
+            "trigger": "adgroup=34843",
+            "parameter": "click_id",
+            "example_url": "https:\/\/app.adjust.com",
+            "steps": [
+                {
+                    "url": "http:\/\/ww2.siteplug.com\/cnv?hx=3859&txnid={click_id}",
+                    "delay": 1
+                },
+                {
+                    "url": "https:\/\/ww2.affinity.net\/cnv?hx=3859&txnid={click_id}&event=yok_cnt",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a6edb8fb5fb6",
+            "name": "Nilsen",
+            "trigger": "thestreamingpanel.com",
+            "parameter": "transid",
+            "example_url": "https:\/\/thestreamingpanel.com",
+            "steps": [
+                {
+                    "url": "https:\/\/postback.proformics.com\/acquisition?security_token=fb57d08eb1564510022f&click_id={click_id}",
+                    "delay": 3
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a71a05f2e166",
+            "name": "iLot Bet",
+            "trigger": "app.adjust.com\/1kvdpd60",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.adjust.com",
+            "steps": [
+                {
+                    "url": "https:\/\/offers-kraken.affise.com\/postback?clickid={click_id}&goal=1",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a7869d2b58cd",
+            "name": "Happy You",
+            "trigger": "click.trackier.io",
+            "parameter": "click_id",
+            "example_url": "https:\/\/click.trackier.io",
+            "steps": [
+                {
+                    "url": "https:\/\/track.trackier.co\/acquisition?click_id={click_id}&security_token=774f445d05b766c12e66",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/track.trackier.co\/acquisition?click_id={click_id}&security_token=774f445d05b766c12e66&goal_value=A_User_Registered",
+                    "delay": 2
+                }
+            ],
+            "status": "on"
+        },
+        {
+            "id": "t_6a792873c268f",
+            "name": "Stocko",
+            "trigger": "ckd2u.app.link",
+            "parameter": "click_id",
+            "example_url": "https:\/\/ckd2u.app.link",
+            "steps": [
+                {
+                    "url": "http:\/\/sandboxads.fuse-cloud.com\/pb?tid={click_id}",
+                    "delay": 0
+                },
+                {
+                    "url": "http:\/\/sandboxads.fuse-cloud.com\/pb?tid={click_id}&e_tkn=p_applicationunderreview",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a79c82bd6548",
+            "name": "Bhim",
+            "trigger": "app.adstracking.io",
+            "parameter": "sub2",
+            "example_url": "https:\/\/app.adstracking.io",
+            "steps": [
+                {
+                    "url": "https:\/\/taal.trackier.co\/acquisition?click_id={click_id}&security_token=9fed4083957488025a09&goal_value=UPI_transaction",
+                    "delay": 1
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a7d884e073fc",
+            "name": "EE",
+            "trigger": "campaign=Coinswitch_Affle",
+            "parameter": "adj_ultra_r",
+            "example_url": "https:\/\/example.link",
+            "steps": [
+                {
+                    "url": "https:\/\/offers-mobtions.affise.com\/postback?clickid={click_id}",
+                    "delay": 20
+                },
+                {
+                    "url": "https:\/\/offers-mobtions.affise.com\/postback?clickid={click_id}&goal=gugrv3",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/offers-mobtions.affise.com\/postback?clickid={click_id}&goal=4h2ian",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/offers-mobtions.affise.com\/postback?clickid={click_id}&goal=z16c1d",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/offers-mobtions.affise.com\/postback?clickid={click_id}&goal=ifkcy5",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a7dad6db9296",
+            "name": "Rocket Reels",
+            "trigger": "click.trackier.io",
+            "parameter": "click_id",
+            "example_url": "https:\/\/click.trackier.io",
+            "steps": [
+                {
+                    "url": "https:\/\/adcounty.vnative.co\/acquisition?click_id={click_id}&security_token=2b248ab1fc2e6d7688af",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a7dbf7e75644",
+            "name": "Master",
+            "trigger": "app.adjust.com",
+            "parameter": "click_id",
+            "example_url": "https:\/\/app.adjust.com",
+            "steps": [
+                {
+                    "url": "https:\/\/api.echovalleymedia.net\/affiliate\/postback?click_id={click_id}&event=install",
+                    "delay": 3
+                },
+                {
+                    "url": "https:\/\/api.echovalleymedia.net\/affiliate\/postback?click_id={click_id}&event=pvw1c6",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/api.echovalleymedia.net\/affiliate\/postback?click_id={click_id}&event=b52mi7",
+                    "delay": 0
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a7dedd0cb565",
+            "name": "InstaClean",
+            "trigger": "vumonic.g2afse.com",
+            "parameter": "sub1",
+            "example_url": "https:\/\/vumonic.g2afse.com",
+            "steps": [
+                {
+                    "url": "https:\/\/paychat.fuse-cloud.com\/pb?tid={click_id}&e_tkn=unique_user_login",
+                    "delay": 1
+                }
+            ],
+            "status": "on"
+        },
+        {
+            "id": "t_6a7ee0fdaf038",
+            "name": "Pay Rupik",
+            "trigger": "c=113212",
+            "parameter": "aff_click_id",
+            "example_url": "https:\/\/alliance.affclix.org",
+            "steps": [
+                {
+                    "url": "https:\/\/husnovamedia957198.o18a.com\/p?tid={click_id}",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a8129bf8d5a6",
+            "name": "Upstox",
+            "trigger": "pid=brinkads_int",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "https:\/\/offers.brinktrack.online\/p?tid={click_id}&event=install",
+                    "delay": 0
+                },
+                {
+                    "url": "https:\/\/offers.brinktrack.online\/p?tid={click_id}&event=create_ucc_m0",
+                    "delay": 2
+                }
+            ],
+            "status": "off"
+        },
+        {
+            "id": "t_6a81808647d12",
+            "name": "Kuku TV",
+            "trigger": "af_prt=Mobvista",
+            "parameter": "clickid",
+            "example_url": "https:\/\/app.appsflyer.com",
+            "steps": [
+                {
+                    "url": "http:\/\/stat.advcorp.net\/event?clickid={click_id}&type=adjust&device={device_name}&pl=android&ip={ip_address}&os={os_version}&devid={idfa}&gaid={gps_adid}&country={country}&match_type={match_type}&sdk_version={sdk_version}&install_time={installed_at}&app_version={app_version_short}&event_time={created_at}&event_value={revenue_usd}&is_reattributed={is_reattributed}&event_name=Trial_s2s",
+                    "delay": 3
+                }
+            ],
+            "status": "on"
+        },
+        {
+            "id": "t_6a81a4d319e77",
+            "name": "Vivago ai",
+            "trigger": "cost_type=CPI",
+            "parameter": "mobvista_clickid",
+            "example_url": "https:\/\/app.adjust.com",
+            "steps": [
+                {
+                    "url": "http:\/\/stat.advcorp.net\/event?clickid={click_id}&event_name=create_successful_3",
+                    "delay": 3
+                }
+            ],
+            "status": "on"
+        }
+    ],
+    "global_adjust": {
+        "status": "on",
+        "name": "All Right",
+        "trigger": "adjust.com",
+        "install_delay": 3,
+        "event_delay": 0
+    },
+    "gridadss_status": "off",
+    "allright_status": "off"
+}
