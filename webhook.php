@@ -196,7 +196,7 @@ if (isset($config['bot_status']) && $config['bot_status'] == 'off') {
 
 if (!checkMembership($chatId, $forceChannelId)) {
     $keyboard = ['inline_keyboard' => [
-        [['text' => 'Join Us', 'url' => 'https://t.me/iSpeedX1'], ['text' => 'Join Us', 'url' => 'https://t.me/+rf2XF4V31YFhMThl']],
+        [['text' => 'Join Us', 'url' => 'https://t.me/iSpeedX1'], ['text' => 'Join Us', 'url' => 'https://t.me/+1vIb7ZQe_x80NmQ1']],
         [['text' => '✅ I Have Joined', 'callback_data' => 'check_join']]
     ]];
     sendMessage($chatId, "<b>Hello $firstName</b>\n<b>Join Our Channels & Use Our Bot</b>", $keyboard);
