@@ -248,7 +248,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         } 
         elseif (isset($_POST['action']) && $_POST['action'] === 'verify_otp') {
             if ($bot->verifyOTP(trim($_POST['otp']))) {
-                $randomScore = rand(2000, 2300);
+                $randomScore = rand(800, 1600);
                 if ($bot->playGame($randomScore)) {
                     $_SESSION['step'] = 3; 
                     $current_step = 3;
